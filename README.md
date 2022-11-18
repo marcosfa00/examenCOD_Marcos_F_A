@@ -59,7 +59,30 @@ para ello emplearemos los siguientes comandos:
     -git add README.md
     -git add Boletin7_1/src
     -git commit -m "Actualizo el Readme.md y subo my proyecto src"
-    -git push origin main
+    -git push origin master
 
 nota:
 * Estoy usando java 17 
+
+se suben los cambios a la rama master
+
+# Tercer commit
+*CREO EL ARCHIVO MERMAID
+
+```mermaid
+    graph TD;
+    I([inicio])-->P
+    P>Introduce el primer numero]--=-->d(num1)
+    d-->P1
+    P1>Introduce el segundo numero]--=-->z(num2)
+    z-->P2>Iintroduce el 3º numero] --=-->c(num3)
+    c-->M[[Metodo1]]
+    M1([inicio Metodo])-->IF{num1>num2 && num1>num3}-->Tr>el numero1 es mayor que num2 y num3]-->FIN
+    IF-->FA{num2>num1&&num2>num3}-->Tru2>El numero 2 es mayor que num1 y num2]-->FIN
+    FA-->TU{num3 > num1 && num3 > num2}-->ENT>El numero 3 es mayor que numero 2 y numero 1]--> FIN([FIN])
+    
+    M-->F([Fin])
+
+
+
+```
