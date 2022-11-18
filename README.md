@@ -47,3 +47,19 @@ y finalmente lo subo con:
 
 normalmente pedira usuario y token, pero en el caso de Mac, no me
 hace falta ya que me guarda el token  
+
+#	Segungo Commit:
+
+A continuación procedo a hacer el segundo commit;
+añado mi ejercicio1 del boletin7 donde se comparan con un if 3 números,
+pero esque además este comit lo hago cambiando el nombre del autor,
+para ello emplearemos los siguientes comandos:
+
+    -git config user.name "Damián el mejor profe del mundo"
+    -git add README.md
+    -git add Boletin7_1/src
+    -git commit -m "Actualizo el Readme.md y subo my proyecto src"
+    -git push origin main
+
+nota:
+* Estoy usando java 17 
